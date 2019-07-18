@@ -1,4 +1,4 @@
-package com.chickencc.dubbo.service;
+package com.chickencc.dubbo;
 
 import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
 import org.springframework.boot.SpringApplication;

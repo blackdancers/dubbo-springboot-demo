@@ -1,12 +1,13 @@
-package com.chickencc.dubbo.service;
+package com.chickencc.dubbo.bootstrap;
 
 import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
+import com.chickencc.dubbo.service.QuickConsumer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @EnableDubboConfiguration
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.chickencc.dubbo"})
 public class DubboSpringbootConsumerApplication {
 
     public static void main(String[] args) {
